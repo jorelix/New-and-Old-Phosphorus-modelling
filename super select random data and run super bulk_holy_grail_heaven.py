@@ -292,7 +292,7 @@ while item > 0:
                                             baseflow.append('')
                 #                         the part chech if the event is ended and if base flow as begun
                                     else:                        
-                                        event_ends += 1
+                                        event_ends += 1 
                                         if event_ends < 2:
                                             events.append(truncated_list[elements1])
                                             event_dates.append(section_dates[elements1])
